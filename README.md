@@ -6,9 +6,9 @@ Blockchain.info API to get price over past 24 hours. Note that there is no publi
 "private" API calls that may break at any point.
 
 # Requirements
-* Python 2.7 or 3.x, requests
+* Python 2.7, requests
 <pre>
-pip install requests
+pip install -r requirements
 </pre>
 
 # Mint.com Setup
