@@ -37,7 +37,7 @@ def main():
     # Get addresses from file if not provided by -a argument
     if not args.bitcoin_addresses:
         if not args.bitcoin_address_file:
-            print "must provide either -a or -f argument"
+            print ("must provide either -a or -f argument")
             return
         f = open(args.bitcoin_address_file,'r')
         args.bitcoin_addresses = f.read().splitlines()
